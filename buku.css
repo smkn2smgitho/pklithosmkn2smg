@@ -1,0 +1,65 @@
+.row-pilihan {
+  display: flex;
+}
+.rak {
+  width: 230.5px;
+  height: 44px;
+  padding: 5px;
+  padding-left: 8px;
+  gap: 4px;
+  border-radius: 8px;
+  border: 1px solid rgb(190, 190, 190);
+  opacity: 0px;
+  color: gray;
+  margin-left: 12px;
+}
+
+
+
+.modal-content {
+  width: 451px;
+  height: 500px;
+  top: 50px;
+  left: 45px;
+  padding: 24px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #A0A0A0;
+    margin-top: 22px;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Adjust padding to make room for the icon */
+    border: 1px solid #F1F2F4;
+    font-size: 16px;
+    color: #A0A0A0;
+    border-radius: 5px;
+}
+
+.search-box input:hover{
+  background-color:#F7F8F9; ;
+} 
+
+
+.search-box .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #A0A0A0;
+}
